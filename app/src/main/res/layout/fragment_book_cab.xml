@@ -20,7 +20,7 @@
                     app:cardElevation="50dp"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp">
                     <ImageView
                         android:scaleType="centerCrop"
@@ -36,7 +36,7 @@
             android:fontFamily="@font/changa_bold"
             android:lineSpacingMultiplier="0.5"
             android:paddingHorizontal="20dp"
-            android:text="Welcome\nYuvraj,"
+            android:text="@string/welcome_heading"
             android:textSize="40sp"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/logo_iv_bcf" />
@@ -48,7 +48,7 @@
             android:fontFamily="@font/changa_regular"
             android:lineSpacingMultiplier="0.5"
             android:paddingHorizontal="20sp"
-            android:text="UvCab proactively offers its ride-hailing services across the country with well-maintained cars and professionally trained driver- partners."
+            android:text="@string/service_intro_para"
             android:textSize="14sp"
             app:layout_constraintLeft_toRightOf="@id/car_iv_bcf"
             app:layout_constraintRight_toRightOf="parent"
@@ -68,7 +68,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Book Now"
+                android:text="@string/_btn_txt"
                 android:layout_gravity="center"
                 android:textSize="20sp"
                 android:fontFamily="@font/changa_bold"
