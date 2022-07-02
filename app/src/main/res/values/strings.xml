@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cab-Booking-App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="from_hint_et_fh">From</string>
+    <string name="to_hint_et_hf">To</string>
+    <string name="car_type_tv_hf">Car Type</string>
+    <string name="select_btn_hf">Select</string>
+    <string name="welcome_heading">Welcome\nYuvraj,</string>
+    <string name="service_intro_para">UvCab proactively offers its ride-hailing services across the country with well-maintained cars and professionally trained driver- partners.</string>
+    <string name="_btn_txt">Book Now</string>
+</resources>
