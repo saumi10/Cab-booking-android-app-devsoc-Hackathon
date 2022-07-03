@@ -5,9 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.CategoryFragment"
-    android:background="@color/black">
+    android:background="@color/white">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:cardBackgroundColor="@color/black"
+    android:layout_marginHorizontal="40dp"
+    app:cardCornerRadius="25dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_marginBottom="60dp"
+    android:id="@+id/next_cv_cf"
+    app:cardElevation="150dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Next"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/changa_bold"
+        android:textSize="20sp"/>
+</androidx.cardview.widget.CardView>
+
 <ImageView
-    android:alpha="0.5"
+    android:alpha="1"
+    android:layout_marginLeft="140dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_constraintEnd_toStartOf="parent"
